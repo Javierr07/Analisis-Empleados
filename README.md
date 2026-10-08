@@ -51,5 +51,8 @@ Este dataset consta de dos Archivos complementarios el cual es Employees y Depar
 ```excel
 =PROMEDIO(employees!K2:K)
 ```
-  
+- Porcentaje de empleados que realizan las horas extras.
+```excel
+=CONTAR.SI(employees!P2:P;"YES")/CONTARA(employees!P2:P)
+```
 

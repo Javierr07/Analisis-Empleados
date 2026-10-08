@@ -36,17 +36,17 @@ Este dataset consta de dos Archivos complementarios el cual es Employees y Depar
 <img width="933" height="645" alt="image" src="https://github.com/user-attachments/assets/501d490d-0f61-44e9-b307-f612c701b7f0" />
 
 ### 5.3 KPIs obtenidas
-- Total de Empleados
+- Total de Empleados:
   Cuenta el total de empleados dentro de la tabla.
 ```excel
 =CONTARA(employees!A2:A)
 ```
-- Total pagos mensuales.
+- Total pagos mensuales:
   suma el total de los pagos realizados a los empleados en el mes.
 ```excel
 =SUMA(employees!K2:K)
 ```
-- Salario promedio.
+- Salario promedio:
   suma el total de los pagos mensuales y los divide entre el total de empleados.
 ```excel
 =PROMEDIO(employees!K2:K)

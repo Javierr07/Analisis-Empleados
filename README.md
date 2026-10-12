@@ -111,7 +111,7 @@ ademas se presentaros diferentes retos dentro de este proceso.
 - claramente el uso de las tablas dinamicas y la construccion de los dashboards.
 
 ## 8. Archivo del dashboard.
-archivo adjunto: [Analisis Empleados.zip](https://github.com/user-attachments/files/33346566/Analisis.Empleados.zip)
-Emlace Google Sheets: https://docs.google.com/spreadsheets/d/1KJBVjac44V9lgyPh7sLciLDZQ_WZHYtLl1qjixPM-yQ/edit?usp=sharing
+- archivo adjunto: [Analisis Empleados.zip](https://github.com/user-attachments/files/33346566/Analisis.Empleados.zip)
+- Enlace Google Sheets: https://docs.google.com/spreadsheets/d/1KJBVjac44V9lgyPh7sLciLDZQ_WZHYtLl1qjixPM-yQ/edit?usp=sharing
 
 

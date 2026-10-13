@@ -1,12 +1,12 @@
 # Analisis Dataset de Empleados
 
-## 1. Dexcripcion.
-Tomamos un Dataset de Kaggle sobre los empleados de una empresa Tecnologica, descargamos los archivos .CSV y los importanmos desde Google Sheets, teniendo como objetivo principal poder realizar un analisis completo usando esta herramienta.
+## 1. Descripcion
+Usando un Dataset de Kaggle se realizara un analisis completo usando la herramienta de goggle sheets de esta forma nos prepararemos para situaciones futuras en las que no podamos involucrar mas herramientas para un analisis completo.
 
-## 2. Objetivo.
+## 2. Objetivo
 Realizar un analisis completo de un Dataset de empleados de una empresa tecnologica usando la herramienta google sheets, implementando la limpieza y transformacion de datos, los principales KPIs, y los dashboard con la informacion relevande del analisis.
 
-## 3. Herramientas Utilizadas.
+## 3. Herramientas Utilizadas
 Google Sheets
 - Importacion de datos.
 - Limpieza y transformacion de datos.
@@ -18,21 +18,21 @@ Kaggle
 - https://www.kaggle.com/datasets/sobrino30/empleados-renunciar-empresa-mediana
 
 
-## 5. Metodologia.
+## 5. Metodologia
 
-### 5.1 Limpieza y Transformacion de datos.
-los pasos realizados para la limpieza y transformacion de datos fueron los siguientes.
-- Formato de Datos
-  Una vez importados los datos se configuro el tipo de dato de cada comunna para garantizar calculos precisos en el analisis,
-- Bisqueda de duplicados.
+### 5.1 Limpieza y Transformacion de datos
+Los pasos realizados para la limpieza y transformacion de datos fueron los siguientes.
+- Formato de Datos.
+  Una vez importados los datos se configuro el tipo de dato de cada colunna para garantizar calculos precisos en el analisis,
+- Busqueda de duplicados.
   se realizo la busqueda de datos duplicados, no encontramos datos duplicados.
 - Datos vacios o nulos.
-  recorrimos todas las colummnas y no se encontraron datos vacios o nulos.
+  recorrimos todas las columnas y no se encontraron datos vacios o nulos.
 <img width="1215" height="607" alt="image" src="https://github.com/user-attachments/assets/8585531e-1d91-4177-ab65-45e67e5a5b78" />
 
 
-### 5.2 Integracion de Datos.
-Este dataset consta de dos Archivos complementarios el cual es Employees y Departments, el proceso fue obtener los datos de la tabla Departments e integrarlo en Employees usando como dato compartido el nombre del Department.
+### 5.2 Integracion de Datos
+Este dataset consta de dos Archivos complementarios el cual es Employees y Departments, el proceso fue obtener los datos de la tabla Departments e integrarlo en Employees usando como dato compartido el nombre del Departamento.
 <img width="933" height="645" alt="image" src="https://github.com/user-attachments/assets/501d490d-0f61-44e9-b307-f612c701b7f0" />
 
 ### 5.3 KPIs obtenidas
@@ -63,8 +63,8 @@ Este dataset consta de dos Archivos complementarios el cual es Employees y Depar
 ```
 
 
-### 5.3 Dashboard.
-los componentes del dashboard son los siguientes.
+### 5.3 Dashboard
+Los componentes del dashboard son los siguientes.
 - las KPIs importantes en la parte superior.
 - Grafico de barras apiladas que muestra la distribucion de los empleados en cada departamento.
 - Grafico de anillo el cual muestra el porcentaje de empleados registrados que ya no trabajan en la empresa.
@@ -73,13 +73,13 @@ los componentes del dashboard son los siguientes.
 - Grafico circular que muestra el porcentaje de empleados activos que realizan horas extras.
 <img width="1130" height="581" alt="image" src="https://github.com/user-attachments/assets/a056982d-9409-48aa-a271-a1c47f7bea78" />
 
-## 6. Hallazgos.
-### 6.1 Composicion de la plantilla de empleados.
-de los 300 empleados registrados en el dataset 249 estan activos en la empresa lo cual indica que en la empresa trabajan el 83% de los empleados egistrados.
+## 6. Hallazgos
+### 6.1 Composicion de la plantilla de empleados
+De los 300 empleados registrados en el dataset 249 estan activos en la empresa lo cual indica que en la empresa trabajan el 83% de los empleados egistrados.
 
-debido a este hallazgo el contexto para analizar es diferente y consideraremos los empleados activos para las KPIs importantes.
+Debido a este hallazgo el contexto para analizar es diferente y consideraremos los empleados activos para las KPIs importantes.
 
-### 6.2 Distribucion de las horas extras por departamento.
+### 6.2 Distribucion de las horas extras por departamento
 
 De los 249 empleados activos, 66 realizan horas extra (26.5%).
 
@@ -89,7 +89,7 @@ Además, Sales concentra el 28.8% de todos los empleados activos que realizan ho
 
 Estos resultados permiten identificar una diferencia entre departamentos, aunque no son suficientes para determinar si existe sobrecarga laboral.
 
-### 6.3 Rotación de empleados según su antigüedad.
+### 6.3 Rotación de empleados según su antigüedad
 Para investigar una posible asociación entre antigüedad y rotación, se analizaron los 300 registros, incluyendo empleados activos y quienes abandonaron la empresa.
 
 Se identificó que:
@@ -102,15 +102,15 @@ La proporción de rotación es aproximadamente 4 puntos porcentuales mayor en el
 
 Aunque existe esta diferencia, no es especialmente marcada, por lo que el análisis no permite afirmar que la antigüedad sea un factor determinante de la rotación.
 
-## 7. Retos.
-uno de los retos mas grandes era el realizar todo el proceso del analisis dentro de Goggle sheets aso poder afrontar los posibles desafios futuros que requieran el uso de esta herramienta.
+## 7. Retos
+Uno de los retos mas grandes era el realizar todo el proceso del analisis dentro de Goggle sheets asi poder afrontar los posibles desafios futuros que requieran el uso de esta herramienta.
 ademas se presentaros diferentes retos dentro de este proceso.
-- la forma en la que se investiga dentro de esta herramienta es a partor de formulas las cuales facilitan mucho el recorrido de datos extensos.
+- La forma en la que se investiga dentro de esta herramienta haciendo uso de formulas las cuales facilitan mucho el recorrido de datos extensos.
 - el uso particular de los filtros.
 - una forma muy distinta de SLQ, y Power query de relacionar las tablas para tener acceso a todos los datos.
 - claramente el uso de las tablas dinamicas y la construccion de los dashboards.
 
-## 8. Archivo del dashboard.
+## 8. Archivo del dashboard
 - archivo adjunto: [Analisis Empleados.zip](https://github.com/user-attachments/files/33346566/Analisis.Empleados.zip)
 - Enlace Google Sheets: https://docs.google.com/spreadsheets/d/1KJBVjac44V9lgyPh7sLciLDZQ_WZHYtLl1qjixPM-yQ/edit?usp=sharing
 
